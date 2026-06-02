@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/java-cicd-demo.git'
+                url: 'https://github.com/vishravi2016/java-cicd-demo.git'
             }
         }
 
